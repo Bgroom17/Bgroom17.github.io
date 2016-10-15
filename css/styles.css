@@ -26,17 +26,15 @@ body {
     padding: 30px;
     position: relative;
     bottom: 130px;
-    left: 120px;
-    width: 1140px;
+    width: 90%;
 }
 
 #data {
     background-color: #00adef;
     padding: 30px;
     position: relative;
-    left: 120px;
     bottom: 70px;
-    width: 1140px;
+    width: 90%;
 }
 
 #sun {
@@ -100,9 +98,9 @@ body {
     background-color: #00adef;
     position: relative;
     bottom: 10px;
-    left: 120px;
-    width: 1140px;
+    width: 90%;
     padding: 5px;
+    text-align:
 }
 
 #forecast {
@@ -114,4 +112,11 @@ body {
 #rain {
     width: 100px;
     height: 100px;
+}
+
+#mobile {
+    width: 40%;
+    height: 40%;
+    position: relative;
+    bottom: 30px;
 }
