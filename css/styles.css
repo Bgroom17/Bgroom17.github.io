@@ -25,7 +25,7 @@ body {
     background-color: #00adef;
     padding: 30px;
     position: relative;
-    bottom: 130px;
+    bottom: 70px;
     width: 90%;
     text-align: center;
 }
@@ -34,9 +34,8 @@ body {
     background-color: #00adef;
     padding: 30px;
     position: relative;
-    bottom: 70px;
+    bottom: 40px;
     width: 90%;
-    
 }
 
 #sun {
@@ -50,57 +49,11 @@ body {
     top: 10px;
 }
 
-#home {
-    background-color: #00adef;
-    position: relative;
-    left: 120px;
-    bottom: 110px;
-    width: 150px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#franklin {
-    background-color: #00adef;
-    position: relative;
-    left: 290px;
-    bottom: 150px;
-    width: 150px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#greenville {
-    background-color: #00adef;
-    position: relative;
-    width: 150px;
-    left: 460px;
-    bottom: 190px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#springfield {
-    background-color: #00adef;
-    position: relative;
-    left: 630px;
-    bottom: 230px;
-    width: 150px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 #footer {
     background-color: #00adef;
     position: relative;
-    bottom: 10px;
     width: 90%;
     padding: 5px;
-    text-align:
 }
 
 #forecast {
@@ -115,8 +68,17 @@ body {
 }
 
 #mobile {
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
     position: relative;
-    bottom: 30px;
+    bottom: 15px;
+  
+}
+li {
+    display: inline;
+    position: relative;
+    left: 90px;
+    bottom:120px;
+    background-color: #00adef;
+    padding: 10px;
 }
