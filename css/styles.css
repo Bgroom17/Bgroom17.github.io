@@ -28,7 +28,6 @@ body {
     bottom: 130px;
     left: 120px;
     width: 1140px;
-    
 }
 
 #data {
@@ -38,15 +37,13 @@ body {
     left: 120px;
     bottom: 70px;
     width: 1140px;
-    
-    
 }
 
 #sun {
     height: 150px;
     width: 150px;
     position: relative;
-    left:210px;
+    left: 210px;
 }
 
 #title {
@@ -98,19 +95,23 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-#footer{
+
+#footer {
     background-color: #00adef;
     position: relative;
     bottom: 10px;
     left: 120px;
     width: 1140px;
     padding: 5px;
-    
 }
-#forecast{
-  
+
+#forecast {
     position: relative;
     left: 250px;
     bottom: 10px;
-    
+}
+
+#rain {
+    width: 100px;
+    height: 100px;
 }
