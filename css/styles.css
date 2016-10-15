@@ -1,7 +1,116 @@
-#summary{
-    background-color: aqua;
-    padding: 12px;
-    border: 5px dashed #000000;
-    margin: 100px;
-    width: 200px;
+html * {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c0e6f0;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: 20px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 60px;
+}
+
+#summary {
+    background-color: #00adef;
+    padding: 30px;
+    position: relative;
+    bottom: 130px;
+    left: 120px;
+    width: 1140px;
+    
+}
+
+#data {
+    background-color: #00adef;
+    padding: 30px;
+    position: relative;
+    left: 120px;
+    bottom: 70px;
+    width: 1140px;
+    
+    
+}
+
+#sun {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left:210px;
+}
+
+#title {
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+#home {
+    background-color: #00adef;
+    position: relative;
+    left: 120px;
+    bottom: 110px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#franklin {
+    background-color: #00adef;
+    position: relative;
+    left: 290px;
+    bottom: 150px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#greenville {
+    background-color: #00adef;
+    position: relative;
+    width: 150px;
+    left: 460px;
+    bottom: 190px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#springfield {
+    background-color: #00adef;
+    position: relative;
+    left: 630px;
+    bottom: 230px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#footer{
+    background-color: #00adef;
+    position: relative;
+    
+    left: 120px;
+    width: 1140px;
+    padding: 5px;
+    
+}
+#forecast{
+  
+    position: relative;
+    left: 250px;
+    bottom: 10px;
+    
 }
