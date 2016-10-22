@@ -1,85 +1,106 @@
-html * {
-    box-sizing: border-box;
-}
-
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #c0e6f0;
-    color: white;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    margin-left: 20px;
-}
-
-#logo {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    bottom: 60px;
-}
-
-#summary {
-    background-color: #00adef;
-    padding: 30px;
-    position: relative;
-    bottom: 70px;
-    width: 90%;
-    text-align: center;
-}
-
-#data {
-    background-color: #00adef;
-    padding: 30px;
-    position: relative;
-    bottom: 40px;
-    width: 90%;
-}
-
-#sun {
-    height: 200px;
-    width: 200px;
-}
-
-#title {
-    position: relative;
-    left: 130px;
-    top: 10px;
-}
-
-#footer {
-    background-color: #00adef;
-    position: relative;
-    width: 90%;
-    padding: 5px;
-}
-
-#forecast {
-    position: relative;
-    text-align: center;
-    bottom: 10px;
-}
-
-#rain {
-    width: 100px;
-    height: 100px;
-}
-
-#mobile {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    bottom: 15px;
-  
-}
-li {
-    display: inline;
-    position: relative;
-    left: 90px;
-    bottom:120px;
-    background-color: #00adef;
-    padding: 5px;
-    width: auto;
-}
+                html * {
+                    box-sizing: border-box;
+                }
+                
+                *:before,
+                *:after {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    background-color: #c0e6f0;
+                    color: white;
+                    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                    margin-left: 20px;
+                }
+                
+                #logo {
+                    height: 100px;
+                    width: 100px;
+                    position: relative;
+                    bottom: 60px;
+                }
+                
+                #summary {
+                    background-color: #00adef;
+                    padding: 30px;
+                    position: relative;
+                    bottom: 70px;
+                    width: 90%;
+                    text-align: center;
+                }
+                
+                #data {
+                    background-color: #00adef;
+                    padding: 30px;
+                    position: relative;
+                    bottom: 40px;
+                    width: 90%;
+                }
+                
+                #sun {
+                    height: 200px;
+                    width: 200px;
+                }
+                
+                #title {
+                    position: relative;
+                    left: 130px;
+                    top: 10px;
+                }
+                
+                #footer {
+                    background-color: #00adef;
+                    position: relative;
+                    width: 90%;
+                    padding: 5px;
+                }
+                
+                #forecast {
+                    position: relative;
+                    text-align: center;
+                    bottom: 10px;
+                }
+                
+                #rain {
+                    width: 100px;
+                    height: 100px;
+                }
+                
+                #mobile {
+                    width: 50%;
+                    height: 50%;
+                    position: relative;
+                    bottom: 15px;
+                }
+                
+                li {
+                    display: inline;
+                    position: relative;
+                    left: 90px;
+                    bottom: 120px;
+                    background-color: #00adef;
+                    padding: 5px;
+                    width: auto;
+                }
+                
+                #wrapper {
+                    width: 95%;
+                    margin: 0 auto;
+                }
+                
+                #hourly {
+                    display: none;
+                }
+                
+                @media screen and (min-width: 770px) {
+                    #hourly {
+                        background-color: #00adef;
+                    }
+                }
+                
+                @media screen and (min-width: 1024px) {
+                    #hourly {
+                        background-color: #00adef;
+                    }
+                }
