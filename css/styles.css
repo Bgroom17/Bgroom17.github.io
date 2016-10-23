@@ -1,106 +1,215 @@
-                html * {
-                    box-sizing: border-box;
+            html * {
+                box-sizing: border-box;
+            }
+            
+            *:before,
+            *:after {
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: #c0e6f0;
+                color: white;
+                font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                margin-left: 30px;
+            }
+            
+            #logo {
+                height: 100px;
+                width: 100px;
+                position: relative;
+                bottom: 60px;
+            }
+            
+            #summary {
+                background-color: #00adef;
+                padding: 30px;
+                position: relative;
+                bottom: 70px;
+                width: 100%;
+                text-align: center;
+            }
+            
+            #data {
+                background-color: #00adef;
+                padding: 30px;
+                position: relative;
+                bottom: 40px;
+                width: 100%;
+                text-align: center;
+            }
+            
+            #sun {
+                height: 200px;
+                width: 200px;
+            }
+            
+            #title {
+                position: relative;
+                left: 130px;
+                top: 10px;
+            }
+            
+            #footer {
+                background-color: #00adef;
+                position: relative;
+                width: 100%;
+                padding: 5px;
+            }
+            
+            #forecast {
+                position: relative;
+                text-align: center;
+                bottom: 10px;
+            }
+            
+            li {
+                display: inline;
+                position: relative;
+                left: 90px;
+                bottom: 120px;
+                background-color: #00adef;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                font-size: .7em;
+            }
+            
+            #wrapper {
+                width: 100S%;
+                margin: 0 auto;
+            }
+            
+            #hourly {
+                display: none;
+            }
+            
+            #mobile {
+                display: none;
+            }
+            
+            #medium {
+                display: none;
+            }
+            
+            #large {
+                display: none;
+            }
+            
+            @media screen and (min-width: 768px) {
+                #hourly {
+                    display: block;
+                    background-color: #00adef;
+                    float: right;
+                    position: relative;
+                    bottom: 950px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    font-size: .86em;
                 }
-                
-                *:before,
-                *:after {
-                    box-sizing: border-box;
-                }
-                
-                body {
-                    background-color: #c0e6f0;
-                    color: white;
-                    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-                    margin-left: 20px;
-                }
-                
                 #logo {
-                    height: 100px;
-                    width: 100px;
+                    height: 120px;
+                    width: 120px;
                     position: relative;
                     bottom: 60px;
                 }
-                
+                #title {
+                    position: relative;
+                    left: 150px;
+                    top: 30px;
+                    font-size: 2.8em;
+                }
+                li {
+                    display: inline;
+                    position: relative;
+                    left: 110px;
+                    bottom: 130px;
+                    background-color: #00adef;
+                    padding: 8px;
+                    width: auto;
+                    font-size: 1.5em;
+                }
                 #summary {
                     background-color: #00adef;
                     padding: 30px;
                     position: relative;
                     bottom: 70px;
-                    width: 90%;
+                    width: 70%;
                     text-align: center;
                 }
-                
                 #data {
                     background-color: #00adef;
                     padding: 30px;
                     position: relative;
                     bottom: 40px;
-                    width: 90%;
+                    width: 70%;
                 }
-                
-                #sun {
-                    height: 200px;
-                    width: 200px;
-                }
-                
+            }
+            
+            @media screen and (min-width: 1033px) {
                 #title {
                     position: relative;
-                    left: 130px;
-                    top: 10px;
+                    left: 210px;
+                    top: 70px;
+                    font-size: 4em;
                 }
-                
-                #footer {
-                    background-color: #00adef;
-                    position: relative;
-                    width: 90%;
-                    padding: 5px;
-                }
-                
-                #forecast {
-                    position: relative;
-                    text-align: center;
-                    bottom: 10px;
-                }
-                
-                #rain {
-                    width: 100px;
-                    height: 100px;
-                }
-                
-                #mobile {
-                    width: 50%;
-                    height: 50%;
-                    position: relative;
-                    bottom: 15px;
-                }
-                
                 li {
                     display: inline;
                     position: relative;
-                    left: 90px;
-                    bottom: 120px;
+                    left: 130px;
+                    bottom: 125px;
                     background-color: #00adef;
-                    padding: 5px;
-                    width: auto;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    width: 80%;
+                    font-size: 1.5em;
                 }
-                
-                #wrapper {
-                    width: 95%;
-                    margin: 0 auto;
+                #logo {
+                    height: 150px;
+                    width: 150px;
+                    position: relative;
+                    bottom: 60px;
                 }
-                
+                #mobile {
+                    display: block;
+                    width: 50%;
+                    height: 50%;
+                }
+                #medium {
+                    display: block;
+                    width: 50%;
+                    height: 50%;
+                }
+                #large {
+                    display: block;
+                    width: 50%;
+                    height: 50%;
+                }
                 #hourly {
-                    display: none;
+                    display: block;
+                    background-color: #00adef;
+                    float: right;
+                    position: relative;
+                    bottom: 950px;
+                    width: 20%;
+                    text-align: center;
                 }
-                
-                @media screen and (min-width: 770px) {
-                    #hourly {
-                        background-color: #00adef;
-                    }
+                #data {
+                    text-align: center;
                 }
-                
-                @media screen and (min-width: 1024px) {
-                    #hourly {
-                        background-color: #00adef;
-                    }
+                body {
+                    margin-left: 40px;
+                    margin-right: 40px;
                 }
+                #summary {
+                    width: 75%;
+                }
+                #data {
+                    width: 75%;
+                }
+            }
