@@ -23,11 +23,11 @@ $(function () {
     // Get the data from the wunderground API
     function getData(lat, long) {
         $.ajax({
-            url: 'https://api.wunderground.com/api/3f747b309a7431f8/geolookup/conditions/q/' + lat + ', ' + long + '.json',
+            url: 'https://api.wunderground.com/api/3f747b309a7431f8/geolookup/conditions/q/' + lat + ',' + long + '.json',
             dataType: "jsonp",
             success: function (data) {
                 console.log(data);
-                var location = data['location']['city'] + ', '+ data['location']['state'];
+                var location = data['location']['city'] + ','+ data['location']['state'];
                 var temp= data['current_observation']['temp_f'];
                 var current = data['current_observation']['weather'];
                 var windchill = data['current_observation']['windchill_f'];
