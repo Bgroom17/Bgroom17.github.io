@@ -4,7 +4,7 @@ $('#query').keyup(function(){
   // All code will be inside of this block
   var value = $('#query').val();
   var rExp = new RegExp(value, "i");
-$.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
+  $.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
     console.log(data);
     returned = data;
 
@@ -27,21 +27,20 @@ $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", f
   $("#searchResults").on("click", "a", function(evt) {
     evt.preventDefault();
 
-    // With the text value get the needed value from the weather.json file
+ 
     var jsonCity = $(this).text(); // Franklin, etc...
     console.log(jsonCity);
     index = $(this).index("a");
     console.log(index);
     console.log(returned);
     getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
-document.getElementById(searchResults).style.display = none;
 
 }); // end keyup
 });
 
 function getData(lat, long) {
   $.ajax({
-    url : 'https://api.wunderground.com/api/3f747b309a7431f8/geolookup/conditions/forecast/q/' + lat + ',' + long + '.json',
+    url : 'https://api.wunderground.com/api//geolookup/conditions/forecast/q/' + lat + ',' + long + '.json',
     dataType : "jsonp",
     success : function(data){
       console.log(data);
@@ -59,10 +58,9 @@ function getData(lat, long) {
       $('#high').text(high + "°F");
       $('#low').text(low + "°F");
       $('#summary').text(summary);
-      $('#add1').text("Feels Like: " + feelsLike + "°F");
-      $('#add2').text("Windspeed: " + windspeed + " mph");
-      $('#add3').text("Visibility: " + visibility + " mi");
-    
+      $('#feelslike').text("Feels Like: " + feelsLike + "°F");
+      $('#windspeed').text("Windspeed: " + windspeed + " mph");
+      $('#visibility').text("Visibility: " + visibility + " mi");
     }
   });
 }
@@ -72,6 +70,7 @@ function toTitleCase(str) {
   return str.replace(/\w+/g, function (txt) {return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
                                             });
 };
+
 
 
                                    
