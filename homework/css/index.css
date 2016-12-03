@@ -1,0 +1,66 @@
+                                    html * {
+                                    box-sizing: border-box;
+                                }
+                                
+                                *:before,
+                                *:after {
+                                    box-sizing: border-box;
+                                }
+                                
+                                body {
+                                    background-color: #c0e6f0;
+                                    color: white;
+                                    font-size: 1.25em;
+                                    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                                    margin-top: 20px;
+                                }
+                                
+                                #logo {
+                                    height: 100px;
+                                    width: 170px;
+                                }
+                                
+                                #page-footer {
+                                    background-color: #00adef;
+                                }
+                                
+                                #title {
+                                    font-size: 1em;
+                                }
+                                
+                                #nav {
+                                    margin: 0;
+                                    padding: 0;
+                                    list-style-type: none;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    background-color: #00adef;
+                                }
+
+
+                                
+                                #current_conditions {
+                                    margin: 0;
+                                    padding: 0;
+                                    list-style-type: none;
+                                }
+                                
+                                @media screen and (min-width: 768px) {
+                                    #logo {
+                                        width: 190px;
+                                        height: 220px;
+                                    }
+                                    #title {
+                                        font-size: 2em;
+                                        align-self: center;
+                                    }
+                                    @media screen and (min-width: 1033px) {
+                                        #title {
+                                            font-size: 3.5em;
+                                            align-self: center;
+                                        }
+                                    }
+                                    #logo {
+                                        width: 220px;
+                                        height: 250px;
+                                    }
