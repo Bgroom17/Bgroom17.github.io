@@ -1,4 +1,4 @@
-var returned;
+
 
 $('#query').keyup(function () {
     // All code will be inside of this block
@@ -13,7 +13,7 @@ $('#query').keyup(function () {
         $.each(data.RESULTS, function (key, val) {
             if (val.name.search(rExp) != -1) {
                 output += '<li>';
-                output += '<a href="https://www.wunderground.com' + val.l + '" title="See results for ' + val.name + '">' + val.name + '</a>';
+                output += '<a href="https://api.wunderground.com/api/3f747b309a7431f8/geolookup/conditions/forecast/q/' + val.l + '" title="See results for ' + val.name + '">' + val.name + '</a>';
                 output += '</li>';
             }
         }); // end each
