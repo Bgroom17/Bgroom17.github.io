@@ -92,10 +92,12 @@ ul {
 h1 {
     font-size: 2em;
     padding-left: 20px;
-}
+}c
 #bannack-bridge, #bannack, #barn, #bridge, #shed, #water, #cart, #close-fence, #fence, #red-leaf, #skull, #tools, #wheat, #wheel, #beckam, #garrett, #gun, #indian-girl, #kenz, #sara-bw, #sara, #stan-paino, #stan, #teacher, #apple, #bug, #flower-close, #flower, #jewel, #leviation, #pink-leaf {width: 33%;
 height: 35%;
 }
+.featured-video{width:33%;
+height:40%;}
 
 
 @media screen and (min-width: 768px) {}
