@@ -1,5 +1,5 @@
 {
-    "fine-art": {
+ 
         "bridge": "/photography-portfolio/images/fine-art/bridge.jpg",
         "cart": "/photography-portfolio/images/fine-art/cart.jpg",
         "close-fence": "/photography-portfolio/images/fine-art/close-fence.jpg",
@@ -9,5 +9,5 @@
         "tools": "/photography-portfolio/images/fine-art/tools.jpg",
         "wheat": "/photography-portfolio/images/fine-art/wheat.jpg",
         "red-leaf": "/photography-portfolio/images/fine-art/red-leaf.jpg"
-    }
+ 
 }
