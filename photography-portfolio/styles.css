@@ -337,6 +337,11 @@ ul {
         width: 33%;
         height: 40%;
     }
+    .wireframe {width:30%;
+    height:30%;}
+    .small {width: 30%;
+    height: 25%;}
+
 }
 
 
