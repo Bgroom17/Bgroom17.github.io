@@ -1,261 +1,284 @@
-html * {
-    box-sizing: border-box;
-}
-
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #8e8e94;
-    color: white;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-}
-
-img {
-    width: 90%;
-    height: 90%;
-    border: 1px solid white;
-}
-
-#logo {
-    background-color: white;
-    width: 15%;
-    height: 15%;
-    padding: 5px, 5px, 5px, 5px;
-    padding: 2px;
-    border: 2px solid white;
-    background-color: white;
-}
-
-h1 {
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 26.4px;
-    color: #97d7e1;
-}
-
-#title {
-    color: white;
-    padding-left: 10px;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    font-size: 30px;
-}
-
-li {
-    display: inline;
-    background-color: white;
-    padding-bottom: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    border: 2px solid gray;
-    font-size: .5em;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-#header {
-    display: flex;
-    justify-content: flex-start;
-}
-
-#bannack-bridge,
-#bannack,
-#barn,
-#bridge,
-#shed,
-#water,
-#cart,
-#close-fence,
-#fence,
-#red-leaf,
-#skull,
-#tools,
-#wheat,
-#wheel,
-#beckam,
-#garrett,
-#gun,
-#indian-girl,
-#kenz,
-#sara-bw,
-#sara,
-#stan,
-#teacher,
-#apple,
-#bug,
-#flower-close,
-#flower,
-#jewel,
-#leviation,
-#pink-leaf {
-    width: 80%;
-    height: 80%;
-}
-
-.featured-video {
-    width: 80%;
-    height: 80%;
-}
-
-.fine {
-    display: flex;
-    justify-content: flex-start;
-    width: 300px;
-    height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    html * {
-        box-sizing: border-box;
-    }
-    #landscape li img.land {
-        width: 100%;
-        height: 100%;
-    }
-    *:before,
-    *:after {
-        box-sizing: border-box;
-    }
-    body {
-        background-color: #8e8e94;
-        color: white;
-        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    }
-    img {
-        width: 90%;
-        height: 90%;
-        border: 1px solid white;
-    }
-    #logo {
-        background-color: white;
-        width: 25%;
-        height: 25%;
-        padding: 5px, 5px, 5px, 5px;
-        padding: 2px;
-        border: 2px solid white;
-        background-color: white;
-    }
-    h1 {
-        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 500;
-        line-height: 26.4px;
-        color: #97d7e1;
-    }
-    #title {
-        color: white;
-        padding-left: 20px;
-        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-        font-size: 30px;
-    }
-    li {
-        display: inline;
-        background-color: white;
-        padding-bottom: 2px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 2px;
-        border: 2px solid gray;
-        font-size: .5em;
-    }
-    ul {
-        display: flex;
-        justify-content: space-around;
-    }
-    #header {
-        display: flex;
-        justify-content: flex-start;
-    }
-    #bannack-bridge,
-    #bannack,
-    #barn,
-    #bridge,
-    #shed,
-    #water,
-    #cart,
-    #close-fence,
-    #fence,
-    #red-leaf,
-    #skull,
-    #tools,
-    #wheat,
-    #wheel,
-    #beckam,
-    #garrett,
-    #gun,
-    #indian-girl,
-    #kenz,
-    #sara-bw,
-    #sara,
-    #stan,
-    #teacher,
-    #apple,
-    #bug,
-    #flower-close,
-    #flower,
-    #jewel,
-    #leviation,
-    #pink-leaf {
-        width: 80%;
-        height: 80%;
-    }
-    .featured-video {
-        width: 80%;
-        height: 80%;
-    }
-}
-
-@media screen and (min-width: 1033px) {
-    img {
-        width: 80%;
-        height: 80%;
-        border: 5px solid white;
-    }
-    body {
-        background-color: #8e8e94;
-        color: white;
-        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    }
-    #logo {
-        background-color: white;
-        width: 10%;
-        height: 10%;
-        padding: 5px, 5px, 5px, 5px;
-        padding: 2px;
-        border: 2px solid white;
-        background-color: white;
-    }
-    #header {
-        display: flex;
-        justify-content: flex-start;
-    }
-    #title {
-        color: white;
-        padding-left: 30px;
-        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-        font-size: 40px;
-    }
-    h1 {
-        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 500;
-        line-height: 26.4px;
-        color: #97d7e1;
-    }
-    /*
+            html * {
+            box-sizing: border-box;
+        }
+        
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #8e8e94;
+            color: white;
+            font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        }
+        
+        img {
+            width: 90%;
+            height: 90%;
+            border: 1px solid white;
+        }
+        
+        #logo {
+            background-color: white;
+            width: 15%;
+            height: 15%;
+            padding: 2px;
+            border: 2px solid white;
+            background-color: white;
+            align-self: center;
+           
+            
+        }
+        
+        h1 {
+            font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            line-height: 26.4px;
+            color: #97d7e1;
+        }
+        
+        #title {
+            color: white;
+            padding-left: 10px;
+            font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        }
+        
+      #page-nav li {
+            display: inline;
+            background-color: white;
+            padding-bottom: 2px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 2px;
+            border: 2px solid gray;
+            font-size: .7em;
+    
+        }
+li {list-style: none;}
+        
+        #header {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        #bannack-bridge,
+        #bannack,
+        #barn,
+        #bridge,
+        #shed,
+        #water,
+        #cart,
+        #close-fence,
+        #fence,
+        #red-leaf,
+        #skull,
+        #tools,
+        #wheat,
+        #wheel,
+        #beckam,
+        #garrett,
+        #gun,
+        #indian-girl,
+        #kenz,
+        #sara-bw,
+        #sara,
+        #stan,
+        #teacher,
+        #apple,
+        #bug,
+        #flower-close,
+        #flower,
+        #jewel,
+        #leviation,
+        #pink-leaf {
+            width: 80%;
+            height: 80%;
+        }
+        
+        .homework {
+            font-size: .5em;
+        }
+        
+       
+        
+        #footer {
+            background-color: #97d7e1;
+            display: flex;
+            justify-content: flex-start;
+            justify-content: space-between;
+             color: white;
+            font-size: .5em;
+        }
+        
+        .featured-video {
+            width: 80%;
+            height: 80%;
+        }
+        
+        .fine {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            padding: none;
+        }
+        
+        .land {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #list {
+            display: block;
+        }
+#page-header {background-color: #97d7e1;
+width: 100%;}
+        
+        @media screen and (min-width: 768px) {
+            html * {
+                box-sizing: border-box;
+            }
+            #landscape li img.land {
+                width: 50%;
+                height: 50%;
+            }
+            *:before,
+            *:after {
+                box-sizing: border-box;
+            }
+            body {
+                background-color: #8e8e94;
+                color: white;
+                font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+            }
+            img {
+                width: 90%;
+                height: 90%;
+                border: 1px solid white;
+            }
+            #logo {
+                background-color: white;
+                width: 25%;
+                height: 25%;
+                padding: 5px, 5px, 5px, 5px;
+                padding: 2px;
+                border: 2px solid white;
+                background-color: white;
+            }
+            h1 {
+                font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: 500;
+                line-height: 26.4px;
+                color: #97d7e1;
+            }
+            #title {
+                color: white;
+                padding-left: 20px;
+                font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+                font-size: 30px;
+            }
+            li {
+                display: inline;
+                background-color: white;
+                padding-bottom: 2px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 2px;
+                border: 2px solid gray;
+                font-size: .5em;
+            }
+            #header {
+                display: flex;
+                justify-content: flex-start;
+            }
+            #bannack-bridge,
+            #bannack,
+            #barn,
+            #bridge,
+            #shed,
+            #water,
+            #cart,
+            #close-fence,
+            #fence,
+            #red-leaf,
+            #skull,
+            #tools,
+            #wheat,
+            #wheel,
+            #beckam,
+            #garrett,
+            #gun,
+            #indian-girl,
+            #kenz,
+            #sara-bw,
+            #sara,
+            #stan,
+            #teacher,
+            #apple,
+            #bug,
+            #flower-close,
+            #flower,
+            #jewel,
+            #leviation,
+            #pink-leaf {
+                width: 80%;
+                height: 80%;
+            }
+            .featured-video {
+                width: 80%;
+                height: 80%;
+            }
+        }
+        
+        @media screen and (min-width: 1033px) {
+            img {
+                width: 80%;
+                height: 80%;
+                border: 5px solid white;
+            }
+            body {
+                background-color: #8e8e94;
+                color: white;
+                font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+            }
+            #logo {
+                background-color: white;
+                width: 10%;
+                height: 10%;
+                padding: 5px, 5px, 5px, 5px;
+                padding: 2px;
+                border: 2px solid white;
+                background-color: white;
+            }
+            #header {
+                display: flex;
+                justify-content: flex-start;
+            }
+            #title {
+                color: white;
+                padding-left: 30px;
+                font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+                font-size: 40px;
+            }
+            h1 {
+                font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: 500;
+                line-height: 26.4px;
+                color: #97d7e1;
+            }
+            /*
 #nav {
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-size: 14px;
@@ -267,82 +290,84 @@ ul {
     flex-wrap: nowrap;
 }
 */
-    a:link,
-    a:visited {
-        color: gray;
-    }
-    a:active {
-        color: #f4d4d1;
-    }
-    li {
-        display: inline;
-        background-color: white;
-        padding-bottom: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        border: 2px solid gray;
-        font-size: 1.2em;
-    }
-    ul {
-        display: flex;
-        justify-content: space-around;
-    }
-    #home-main {
-        padding-left: 200px;
-    }
-    h1 {
-        font-size: 2em;
-        padding-left: 20px;
-    }
-    #bannack-bridge,
-    #bannack,
-    #barn,
-    #bridge,
-    #shed,
-    #water,
-    #cart,
-    #close-fence,
-    #fence,
-    #red-leaf,
-    #skull,
-    #tools,
-    #wheat,
-    #wheel,
-    #beckam,
-    #garrett,
-    #gun,
-    #indian-girl,
-    #kenz,
-    #sara-bw,
-    #sara,
-    #stan-paino,
-    #stan,
-    #teacher,
-    #apple,
-    #bug,
-    #flower-close,
-    #flower,
-    #jewel,
-    #leviation,
-    #pink-leaf {
-        width: 33%;
-        height: 35%;
-    }
-    #bannack-bridge {
-        width: 33%;
-        height: 35%;
-    }
-    .featured-video {
-        width: 33%;
-        height: 40%;
-    }
-    .wireframe {width:30%;
-    height:30%;}
-    .small {width: 30%;
-    height: 25%;}
-
-}
-
-
-/*d7bbda*/
+            a:link,
+            a:visited {
+                color: gray;
+            }
+            a:active {
+                color: #f4d4d1;
+            }
+            li {
+                display: inline;
+                background-color: white;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                border: 2px solid gray;
+                font-size: 1.2em;
+            }
+            #home-main {
+                padding-left: 200px;
+            }
+            h1 {
+                font-size: 2em;
+                padding-left: 20px;
+            }
+            #bannack-bridge,
+            #bannack,
+            #barn,
+            #bridge,
+            #shed,
+            #water,
+            #cart,
+            #close-fence,
+            #fence,
+            #red-leaf,
+            #skull,
+            #tools,
+            #wheat,
+            #wheel,
+            #beckam,
+            #garrett,
+            #gun,
+            #indian-girl,
+            #kenz,
+            #sara-bw,
+            #sara,
+            #stan-paino,
+            #stan,
+            #teacher,
+            #apple,
+            #bug,
+            #flower-close,
+            #flower,
+            #jewel,
+            #leviation,
+            #pink-leaf {
+                width: 33%;
+                height: 35%;
+            }
+            #bannack-bridge {
+                width: 33%;
+                height: 35%;
+            }
+            .featured-video {
+                width: 33%;
+                height: 40%;
+            }
+            .wireframe {
+                width: 30%;
+                height: 30%;
+            }
+            .small {
+                width: 30%;
+                height: 25%;
+            }
+            #landscape li img.land {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+            /*d7bbda*/
