@@ -364,7 +364,11 @@
                             height: 30%;
                         }
                         #test .land {
+                            
                             display: flex;
+                            flex-direction: row;
                            
                         }
+                        .walt {width: 33%;
+                        height: 33%;}
                     }
