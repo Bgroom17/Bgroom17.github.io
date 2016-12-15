@@ -142,6 +142,8 @@
                         background-color: #97d7e1;
                         width: 100%;
                     }
+ .walt {width: 33%;
+                        height: 33%;}
                     
                     @media screen and (min-width: 767px) {
                         html * {
@@ -255,6 +257,8 @@
                             width: 30%;
                             height: 30%;
                         }
+                        .walt {width: 33%;
+                        height: 33%;}
                     }
                     
                     @media screen and (min-width: 1033px) {
