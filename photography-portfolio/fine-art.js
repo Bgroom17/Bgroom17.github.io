@@ -37,7 +37,7 @@ $.getJSON( "fine.json", function( data ) {
     console.log(data);
   var items = [];
   $.each( data, function( key, val ) {
-    items.push( "<li> <img class='fine' src='"+val+ "' alt='" +key+ "'></li>");
+    items.push( "<li> <img class='fine' src='"+val+ "' alt='Picture of " +key+ "'></li>");
     
   });
  
