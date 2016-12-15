@@ -385,6 +385,7 @@
                         #index {
                             width: 85%;
                             padding-left: 240px;
+                            font-size: 1em;
                         }
                         #mainImageCaption{font-size: .5em;}
                     }
